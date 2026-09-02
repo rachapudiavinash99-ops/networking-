@@ -3,7 +3,7 @@ from typing import List
 import json
 
 class Settings(BaseSettings):
-    DATABASE_URL: str = "postgresql://netguardian:strongpassword123@localhost/netguardian_db"
+    DATABASE_URL: str = "sqlite:///./netguardian.db"
     REDIS_URL: str = "redis://localhost:6379/0"
     JWT_SECRET: str = "supersecretjwtkey_replace_in_production"
     JWT_ALGORITHM: str = "HS256"
