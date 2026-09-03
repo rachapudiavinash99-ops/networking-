@@ -9,28 +9,28 @@
 
 ## Installation
 First, clone the repository and navigate to the directory:
-`ash
+```bash
 git clone https://github.com/rachapudiavinash99-ops/networking-.git
 cd networking-
-`
+```
 
 ## Build
 To build the application using Docker:
-`ash
+```bash
 docker-compose build
-`
+```
 For local frontend build:
-`ash
+```bash
 cd frontend
 npm install
 npm run build
-`
+```
 
 ## Run
 To run the full stack via Docker Compose:
-`ash
+```bash
 docker-compose up -d
-`
+`````
 The application will be available at http://localhost:3000
 
 ## Usage
